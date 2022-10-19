@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from '~/App';
-import reportWebVitals from './reportWebVitals';
-import GlobalStyles from '~/components/GlobalStyles';
+import * as React from "react";
+import ReactDOM from "react-dom/client";
+import App from "@features/app/App";
+import reportWebVitals from "./reportWebVitals";
+import GlobalStyles from "@/components/global-styles";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>

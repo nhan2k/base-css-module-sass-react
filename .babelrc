@@ -4,7 +4,10 @@
       "module-resolver",
       {
         "alias": {
-          "~": "./src"
+          "@": "./src",
+          "@features": "./src/features",
+          "@pages": "./src/pages",
+          "@assets": "./src/assets"
         }
       }
     ]
